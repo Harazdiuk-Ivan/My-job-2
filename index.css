@@ -1,0 +1,79 @@
+p>span {
+    font-weight: bold;
+}
+
+.Computer-programming {
+    font-size: 17px;
+   
+    
+}
+
+.history {
+    font-size: 17px;
+}
+
+.Machine-language {
+    font-size: 17px;
+}
+
+.Software-development {
+    background-color: rgb(242, 240, 255);
+    float: right;
+    display: inline-block;
+    border-style: solid;
+    border-width: 0.5px;
+    padding-right: 20px;
+    margin: 10px;
+
+}
+
+.Software-development>p {
+    text-align: center;
+    font-weight: bold; 
+}
+
+.Software-development>ol {
+    font-weight: bold;
+
+}
+.ada-lovelace>p{
+    font-size: 14px;
+    margin:5px;
+
+}
+.Ada-img{
+    max-height: 229px;
+    margin: 5px;
+}
+
+.ada-lovelace{
+    background-color: rgb(242, 240, 255);
+    float: right;
+    display: inline-block;
+    margin: 10px;
+    border-style: solid;
+    border-width: 0.2px;
+    max-width: 176px;
+    max-height: 400px;
+}
+
+.PunchCardDecks-img{
+    max-height: 185px;
+    margin: 5px;
+}
+
+.PunchCardDecks>p{
+    font-size: 14px;
+    margin:5px;
+}
+
+.PunchCardDecks{
+    background-color: rgb(242, 240, 255);
+    float: right;
+    display: inline-block;
+    margin: 10px;
+    border-style: solid;
+    border-width: 0.2px;
+    max-width: 176px;
+    max-height: 400px;
+}
