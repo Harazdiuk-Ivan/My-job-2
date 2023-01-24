@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 p>span {
     font-weight: bold;
 }
@@ -76,4 +81,34 @@ p>span {
     border-width: 0.2px;
     max-width: 176px;
     max-height: 400px;
+}
+
+/* ------------ */
+
+.nav-pan{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(220, 234, 246);
+    height: 60px;
+    padding-left:  20px;
+    padding-right: 20px;
+}
+
+.nav-pan>nav{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-pan>nav>input{
+   
+    margin-left: 100px;
+}
+
+/* ----------------- */
+
+.text-age{
+    padding: 15px;
 }
